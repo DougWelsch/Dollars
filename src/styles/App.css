@@ -24,9 +24,15 @@ h1 {
     margin-top: 20px;
 }
 
+.Subforum-Divider {
+    display: block;
+    border: 0;
+    height: 1px;
+}
+
 .Subforum-Title {
     background-color: rgb(64, 64, 64);
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     margin: 4px;
 }
@@ -51,6 +57,9 @@ h1 {
 
 .Subforum-Icon-Img {
     filter: invert(1);
+    width: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .Navigation {
@@ -82,3 +91,59 @@ h1 {
     background-color: rgba(0,0,0,0.1);
 }
 
+
+.Nav-Search {
+    border: solid 1px purple;
+    margin-top: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 2px 3px purple;
+}
+
+.Nav-Search select {
+    padding: 10px;
+}
+
+.Nav-Search input {
+    padding: 10px;
+}
+
+.Nav-Search button {
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+.Nav-Search button:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 1px 2px 3px white;
+}
+
+.App-Info {
+    padding: 20px;
+    background-color: rgb(32, 32, 32);
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: purple;
+}
+
+
+
+/* Smartphone Styles */
+@media screen and (max-width: 800px) {
+    .App {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .Subforum-Row {
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 65% 35%;
+    }
+}
