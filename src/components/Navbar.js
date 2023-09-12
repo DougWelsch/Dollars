@@ -22,7 +22,7 @@ function Navbar(props) {
             <option value="descriptions">Descriptions</option>
           </select>
           <input type="text" placeholder="Search..."/>
-          <button>Q</button>
+          <button>Query</button>
         </div>
       </div>
   );
