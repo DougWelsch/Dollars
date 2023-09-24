@@ -1,0 +1,16 @@
+.Subforum {
+    margin-top: 20px;
+}
+
+.Subforum-Divider {
+    display: block;
+    border: 0;
+    height: 1px;
+}
+
+.Subforum-Title {
+    background-color: rgb(64, 64, 64);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 4px;
+}

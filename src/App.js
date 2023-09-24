@@ -2,12 +2,15 @@ import './styles/App.css';
 
 import Navbar from './components/Navbar';
 import SubForum from './components/SubForum';
+import BoardMessage from './components/BoardMessage';
 
 function App() {
   return (
     <div className="App">
       {/* Header */}
       <Navbar/>
+
+      <BoardMessage/>
 
       <SubForum title="General Information"/>
       <SubForum title="Administration"/>

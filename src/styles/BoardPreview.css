@@ -1,0 +1,33 @@
+.BoardPreview {
+    display: grid;
+    grid-template-columns: 7% 60% 13% 20%;
+}
+
+.Preview-Column {
+    padding: 10px;
+    margin: 4px;
+    border-radius: 5px;
+    background-color:  rgb(32, 32, 32);
+}
+
+.Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Preview-Icon-Img {
+    filter: invert(1);
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Smartphone Styles */
+@media screen and (max-width: 800px) {
+    .BoardPreview {
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 65% 35%;
+    }
+}

@@ -1,3 +1,5 @@
+import '../styles/Navbar.css';
+
 function Navbar(props) {
   return (
     <div className="App-Navbar">

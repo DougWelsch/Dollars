@@ -1,5 +1,6 @@
-import notebook from '../assets/notebook.png';
-import SubForum_Row from './SubForum_Row';
+import '../styles/SubForum.css';
+
+import BoardPreview from './BoardPreview';
 
 function SubForum(props) {
     return (
@@ -9,9 +10,9 @@ function SubForum(props) {
             </div>
 
             {/* Temporary Data */}
-            <SubForum_Row/>
+            <BoardPreview/>
             <hr className="Subforum-Divider"/>
-            <SubForum_Row/>
+            <BoardPreview/>
         </div>
     );
   };
